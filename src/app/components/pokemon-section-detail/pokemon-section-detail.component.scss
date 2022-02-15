@@ -1,0 +1,15 @@
+.item-pokemon {
+  cursor: pointer;
+  flex: 0 1 calc(20% - 8px);
+  &:hover {
+    box-shadow: 1px 1px 1px 2px #aaaaaa;
+    border-radius: 5px;
+  }
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}

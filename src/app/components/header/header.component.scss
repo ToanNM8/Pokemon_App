@@ -1,0 +1,19 @@
+@import url("../../../styles.scss");
+
+.header-logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+
+a {
+  color: black !important;
+}

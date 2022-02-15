@@ -1,0 +1,16 @@
+<div class="page-body">
+  <div class="container">
+    <div class="row">
+      <div class="header">
+        <h1 class="py-3">Pokemon Section</h1>
+        <button type="button" class="btn btn-link" (click)="onNavigateList()">
+          See more
+        </button>
+      </div>
+    </div>
+
+    <app-pokemon-section-detail
+      [pokemonList]="pokemonList"
+    ></app-pokemon-section-detail>
+  </div>
+</div>

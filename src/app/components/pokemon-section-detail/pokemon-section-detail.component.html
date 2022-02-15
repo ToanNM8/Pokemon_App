@@ -1,0 +1,20 @@
+<div class="content">
+  <div
+    class="p-2 item-pokemon"
+    *ngFor="let item of pokemonList"
+    (click)="openModal(item)"
+  >
+    <div class="card">
+      <img
+        class="card-img-top"
+        src="../../../assets/images/{{ item.url }}.png"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h6 class="card-text text-center">
+          {{ item.name }}
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>

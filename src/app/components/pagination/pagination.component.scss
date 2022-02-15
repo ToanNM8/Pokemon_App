@@ -1,0 +1,24 @@
+.pagination {
+  justify-content: space-around;
+}
+
+.page {
+  display: flex;
+}
+
+.space {
+  width: 158px;
+}
+
+input {
+  text-align: center;
+  width: 50px;
+}
+
+.total-page {
+  margin-top: 6px;
+}
+
+:host ::ng-deep .dropdown-item {
+  cursor: pointer;
+}
