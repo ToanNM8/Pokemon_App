@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PokemonComponent } from './pokemon.component';
+import { PokemonComponent } from './pokemon-list.component';
 import { PokemonSectionDetailModule } from '../pokemon-section-detail/pokemon-section-detail.module';
 import { PaginationModule } from '../pagination/pagination.module';
 import { FormsModule } from '@angular/forms';

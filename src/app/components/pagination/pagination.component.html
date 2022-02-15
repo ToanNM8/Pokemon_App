@@ -1,5 +1,23 @@
 <div class="pagination">
-  <div class="space"></div>
+  <div class="btn-group item-per-page">
+    <button
+      type="button"
+      class="btn btn-primary dropdown-toggle"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      {{ itemPerPage }}
+    </button>
+    <div class="dropdown-menu">
+      <a
+        class="dropdown-item"
+        *ngFor="let item of numbers"
+        (click)="onChangeItemPerPage(item)"
+        >{{ item }}</a
+      >
+    </div>
+  </div>
   <div class="page">
     <button
       class="btn btn-primary"
@@ -24,24 +42,5 @@
     >
       Next
     </button>
-  </div>
-  <div class="btn-group item-per-page">
-    <button
-      type="button"
-      class="btn btn-primary dropdown-toggle"
-      data-toggle="dropdown"
-      aria-haspopup="true"
-      aria-expanded="false"
-    >
-      {{ itemPerPage }}
-    </button>
-    <div class="dropdown-menu">
-      <a
-        class="dropdown-item"
-        *ngFor="let item of numbers"
-        (click)="onChangeItemPerPage(item)"
-        >{{ item }}</a
-      >
-    </div>
   </div>
 </div>

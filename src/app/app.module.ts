@@ -5,12 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterModule } from './components/footer/footer.module';
 import { HeaderModule } from './components/header/header.module';
-import { HomePageModule } from './components/home-page/home-page.module';
-import { NavigationModule } from './components/navigation/navigation.module';
+import { HomePageModule } from './components/home/home.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { PokemonModule } from './components/pokemon/pokemon.module';
 import { PaginationModule } from './components/pagination/pagination.module';
+import { PokemonModule } from './components/pokemon-list/pokemon-list.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,7 +18,6 @@ import { PaginationModule } from './components/pagination/pagination.module';
     AppRoutingModule,
     HeaderModule,
     FooterModule,
-    NavigationModule,
     HomePageModule,
     HttpClientModule,
     NgbModule,

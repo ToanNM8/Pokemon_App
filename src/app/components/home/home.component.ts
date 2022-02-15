@@ -5,9 +5,9 @@ import { Results } from 'src/app/models/common.model';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
-  selector: 'app-home-page',
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.scss'],
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
 })
 export class HomePageComponent implements OnInit, OnDestroy {
   destroyed$ = new Subject();

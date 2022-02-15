@@ -6,11 +6,12 @@ import { ResponseGeneration } from '../models/common.model';
 const URL = 'https://pokeapi.co/api/v2/';
 const URL_Version = URL + 'version/';
 const URL_Generation = URL + 'generation/';
-const URL_List = URL + 'ability/';
+const URL_List = URL + 'pokemon/';
 
 @Injectable({
   providedIn: 'root',
 })
+
 export class PokemonService {
   constructor(private http: HttpClient) {}
 

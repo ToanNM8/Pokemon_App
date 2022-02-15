@@ -16,12 +16,10 @@
     </div>
     <div>
       <h6>Name: {{ pokemon.name }}</h6>
-      <h6>Generation: {{ pokemon.generation.name }}</h6>
-      <h6>Effect ability: {{ pokemon.effect_entries[0].effect }}</h6>
-      <h6>
-        Short Effect:
-        {{ pokemon.effect_entries[0].short_effect }}
-      </h6>
+      <h6>Types: {{ pokemon.types[0].type.name }}</h6>
+      <h6>Abilities:</h6>
+      <h6 class="ml-2">- {{ pokemon.abilities[0].ability.name }}</h6>
+      <h6 class="ml-2">- {{ pokemon.abilities[1].ability.name }}</h6>
     </div>
   </div>
 </div>

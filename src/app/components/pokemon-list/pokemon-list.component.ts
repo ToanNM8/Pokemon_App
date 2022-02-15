@@ -6,8 +6,8 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon',
-  templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss'],
+  templateUrl: './pokemon-list.component.html',
+  styleUrls: ['./pokemon-list.component.scss'],
 })
 export class PokemonComponent implements OnInit, OnDestroy {
   destroyed$ = new Subject();
